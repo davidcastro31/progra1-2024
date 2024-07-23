@@ -8,8 +8,18 @@ namespace Miprimerproyecto
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        static void Main(string[] args) {
+            Console.Write("num1: ");
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.Write("num2: ");
+            int num2 = int.Parse(Console.ReadLine());
+
+            int respuesta = num1 + num2;
+            Console.WriteLine("La suma de {0} + {1} = {2}", num1, num2, respuesta);
+
+            //pausa
+            Console.ReadLine();
         }
     }
 }
