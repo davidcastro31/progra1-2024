@@ -1,0 +1,7 @@
+D:\Users\Estudiante\Downloads\progra1- David Castro\calcular promedio\calcularproimedio\bin\Debug\calcularproimedio.exe.config
+D:\Users\Estudiante\Downloads\progra1- David Castro\calcular promedio\calcularproimedio\bin\Debug\calcularproimedio.exe
+D:\Users\Estudiante\Downloads\progra1- David Castro\calcular promedio\calcularproimedio\bin\Debug\calcularproimedio.pdb
+D:\Users\Estudiante\Downloads\progra1- David Castro\calcular promedio\calcularproimedio\obj\Debug\calcularproimedio.csproj.AssemblyReference.cache
+D:\Users\Estudiante\Downloads\progra1- David Castro\calcular promedio\calcularproimedio\obj\Debug\calcularproimedio.csproj.CoreCompileInputs.cache
+D:\Users\Estudiante\Downloads\progra1- David Castro\calcular promedio\calcularproimedio\obj\Debug\calcularproimedio.exe
+D:\Users\Estudiante\Downloads\progra1- David Castro\calcular promedio\calcularproimedio\obj\Debug\calcularproimedio.pdb
