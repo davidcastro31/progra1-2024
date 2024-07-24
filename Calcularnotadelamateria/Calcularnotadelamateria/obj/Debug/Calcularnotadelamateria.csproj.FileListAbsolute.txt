@@ -1,0 +1,7 @@
+C:\Users\David\OneDrive\Desktop\Progra1-2024-semi\Calcularnotadelamateria\Calcularnotadelamateria\bin\Debug\Calcularnotadelamateria.exe.config
+C:\Users\David\OneDrive\Desktop\Progra1-2024-semi\Calcularnotadelamateria\Calcularnotadelamateria\bin\Debug\Calcularnotadelamateria.exe
+C:\Users\David\OneDrive\Desktop\Progra1-2024-semi\Calcularnotadelamateria\Calcularnotadelamateria\bin\Debug\Calcularnotadelamateria.pdb
+C:\Users\David\OneDrive\Desktop\Progra1-2024-semi\Calcularnotadelamateria\Calcularnotadelamateria\obj\Debug\Calcularnotadelamateria.csproj.AssemblyReference.cache
+C:\Users\David\OneDrive\Desktop\Progra1-2024-semi\Calcularnotadelamateria\Calcularnotadelamateria\obj\Debug\Calcularnotadelamateria.csproj.CoreCompileInputs.cache
+C:\Users\David\OneDrive\Desktop\Progra1-2024-semi\Calcularnotadelamateria\Calcularnotadelamateria\obj\Debug\Calcularnotadelamateria.exe
+C:\Users\David\OneDrive\Desktop\Progra1-2024-semi\Calcularnotadelamateria\Calcularnotadelamateria\obj\Debug\Calcularnotadelamateria.pdb
