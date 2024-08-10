@@ -8,7 +8,8 @@ namespace miprimerproyecto
 {
     class Program
     {
-        static void Main(string[] args) {
+        static void Main(string[] args)
+        {
             //2. Switch ejercicio. 
             string continuar = "s";
             while (continuar == "s")
@@ -17,9 +18,11 @@ namespace miprimerproyecto
                 Console.WriteLine("1. Promedio Notas");
                 Console.WriteLine("2. Promedio Serie Numeros");
                 Console.WriteLine("3. Clasificacion edad");
-                Console.WriteLine("4. Salir");
+                Console.WriteLine("4. tabla de multiplicar");
+                Console.WriteLine("5. salir.");
                 Console.Write("Opcion: ");
                 int opcion = int.Parse(Console.ReadLine());
+                Console.Clear();
                 switch (opcion)
                 {
                     case 1://if(opcion==1)
@@ -31,12 +34,29 @@ namespace miprimerproyecto
                     case 3://if(opcion==3)
                         clasificacionEdad();
                         break;
-                    case 4://if(opcion==4)
+                    case 4://if(opcional==4)
+                        Tablamultiplicar();
+                        break;
+                    case 5://if(opcional==5)
                         continuar = "n";
                         break;
+
                     default://else
                         Console.WriteLine("opcion incorrecta \n\n");
                         break;
+                
+            }
+        }
+    
+
+                        void Tablamultiplicar()
+                        {
+                            Console.Write("Tabla: ");
+                            int ntabla = int.Parse(Console.ReadLine());
+                            for (int i = 1; i <= 10; i++) {//i++ => i = i + 1
+                                Console.WriteLine("{0}x{1}={2}", ntabla, i, ntabla * i);
+                            }
+                        }
 
                         void promedio()
                         {
@@ -64,7 +84,8 @@ namespace miprimerproyecto
                             double c2 = lab1 * 30 / 100 + lab2 * 30 / 100 + parcial1 * 40 / 100;
                             Console.WriteLine("La nota de C2 es: {0}", c2);
                         }
-                        void promedioSerie() {
+                        void promedioSerie()
+                        {
                             int[] serie = new int[] { 5, 4, 6, 8, 9 }; //32
                             int suma = 0;
                             foreach (int num in serie)
@@ -80,39 +101,39 @@ namespace miprimerproyecto
                             Console.Write("Edad: ");
                             int edad = int.Parse(Console.ReadLine());
 
-                            if (edad < 0)
-                            {
-                                Console.WriteLine("Edad incorrecta.");
-                            }
-                            else if (edad <= 2)
-                            {
-                                Console.WriteLine("Eres un bebe");
-                            }
-                            else if (edad < 12)
-                            {
-                                Console.WriteLine("Eres un niño");
-                            }
-                            else if (edad < 18)
-                            {
-                                Console.WriteLine("Eres un adolescente.");
-                            }
-                            else if (edad <= 65)
-                            {
-                                Console.WriteLine("Bienvenido al mundo de las reposabilidades.");
-                            }
-                            else if (edad <= 80)
-                            {
-                                Console.WriteLine("Eres un adulto mayor");
-                            }
-                            else
-                            {
-                                Console.WriteLine("Larga vida");
-                            }
-
-                        }
-
+                if (edad < 0)
+                {
+                    Console.WriteLine("Edad incorrecta.");
                 }
-            }
+                else if (edad <= 2)
+                {
+                    Console.WriteLine("Eres un bebe");
+                }
+                else if (edad < 12)
+                {
+                    Console.WriteLine("Eres un niño");
+                }
+                else if (edad < 18)
+                {
+                    Console.WriteLine("Eres un adolescente.");
+                }
+                else if (edad <= 65)
+                {
+                    Console.WriteLine("Bienvenido al mundo de las reposabilidades.");
+                }
+                else if (edad <= 80)
+                {
+                    Console.WriteLine("Eres un adulto mayor");
+                }
+                else
+                {
+                    Console.WriteLine("Larga vida");
+                }
+                }
+
         }
     }
 }
+
+    
+
